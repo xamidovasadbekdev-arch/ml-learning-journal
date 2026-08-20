@@ -53,4 +53,4 @@ A **scalar** is just a single number — no direction, no rows/columns, just one
 
 #### Conclusion
 
-!image.png
+<img width="707" height="201" alt="image" src="https://github.com/user-attachments/assets/709f9683-abaa-4d6b-812d-16c58e713316" />
