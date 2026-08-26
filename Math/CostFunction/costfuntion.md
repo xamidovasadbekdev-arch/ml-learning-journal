@@ -56,7 +56,8 @@ cost = (1 + 0 + 1) / 3 = 0.667
 - **Normal Equation** — literally *is* the formula that finds the `w` (and bias) that makes this cost as small as mathematically possible, in one shot.
 - **Gradient descent** — is the "guess → check error → adjust" loop, where the "check error" step is exactly calculating this cost function, and "adjust" means nudging `w`/`b` in the direction that makes cost go down.
 
-!image.png
+<img width="714" height="296" alt="image" src="https://github.com/user-attachments/assets/948d1ed5-c8f9-4520-a9c4-86e5eb95bb91" />
+
 
 **Cost function** = the general concept: "a number that measures how wrong the model is"
 
