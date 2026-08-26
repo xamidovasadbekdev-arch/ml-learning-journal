@@ -76,7 +76,8 @@ y_preds = w @ bias
 
 ### The Prediction Equation:
 
-!image.png
+<img width="272" height="42" alt="image" src="https://github.com/user-attachments/assets/704e581c-8bce-46a3-9baf-26bbee92aa97" />
+
 
 This equation calculates the predicted output for a single data point.
 • **(y)**: The predicted target value (e.g., the price of a house).
