@@ -30,7 +30,8 @@ Only approximate — stops near the minimum
 
 Comparison with Normal Equation
 
-!image.png
+<img width="913" height="483" alt="image" src="https://github.com/user-attachments/assets/9ebe59a8-577c-4329-b153-8ebc5a4221bb" />
+
 
 Gradient Descent types:
 
@@ -38,7 +39,8 @@ Gradient Descent types:
 
 The only difference between these is *how much data you look at before each step*:
 
-!image.png
+<img width="913" height="483" alt="image" src="https://github.com/user-attachments/assets/09b77552-0afa-424f-922a-e86d5942a880" />
+
 
 ```jsx
 In scikit-learn:
