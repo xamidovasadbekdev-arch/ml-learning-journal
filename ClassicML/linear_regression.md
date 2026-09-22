@@ -14,7 +14,8 @@ dots to the line is as small as possible. Those vertical gaps are the model's er
 gaps don't cancel out. Minimizing them is called Ordinary Least Squares (OLS).
 ```
 
-!image.png
+<img width="876" height="608" alt="image" src="https://github.com/user-attachments/assets/e1f66b2e-ca6b-45f4-a24e-f1bfeb9ab2fa" />
+
 
 What for we use Linear Regression in real life:
 
@@ -115,7 +116,7 @@ which is exactly what gradient descent needs.
 
 ```
 
-!image.png
+<img width="887" height="586" alt="image" src="https://github.com/user-attachments/assets/9edbb2a3-3dec-4e6e-93b0-0fd0f4e7d3c7" />
 
 #######################################################################
 
