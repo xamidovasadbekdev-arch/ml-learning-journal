@@ -40,7 +40,7 @@ All models were evaluated on the 20% test split using $R^2$ score, Mean Squared 
 | **Linear Regression (Baseline)** | **0.8825** | **4,646.06** | **2,867.32** |
 | **Ridge Regression** ($\alpha=10.0$) | 0.8800 | 4,696.26 | 2,933.53 |
 | **Lasso Regression** ($\alpha=100.0$) | 0.8782 | 4,731.73 | 2,948.97 |
-| **ElasticNet** ($\alpha=1.0, \text{l1\_ratio}=0.5$) | 0.8084 | 5,933.41 | 4,121.96 |
+| **ElasticNet** ($\alpha=1.0, \text{l1_ratio}=0.5$) | 0.8084 | 5,933.41 | 4,121.96 |
 
 ### Hyperparameter Tuning Results
 Adjusting the regularization strength ($\alpha$) revealed that over-regularization initially constrained model accuracy:
