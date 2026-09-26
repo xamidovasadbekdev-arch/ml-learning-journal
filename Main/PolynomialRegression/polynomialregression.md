@@ -18,7 +18,8 @@ y = 0.5 * X**2 + X + 2 + np.random.randn(m, 1)
 sns.scatterplot(X, y)
 ```
 
-!image.png
+<img width="565" height="355" alt="image" src="https://github.com/user-attachments/assets/31193186-6860-4d0c-9d09-a035bb97a55d" />
+
 
 It is clear that linear line never fits this graph properly. We have **PolynomialFeatures in sklearn**
 
@@ -44,7 +45,8 @@ can fit a LinearRegression model to this extended training data
 (array([1.78134581]), array([[0.93366893, 0.56456263]]))
 ```
 
-!image.png
+<img width="638" height="343" alt="image" src="https://github.com/user-attachments/assets/0d9c3092-4353-4cd9-8589-3e14baad8904" />
+
 
 Not bad : model estimates **y = 0.56x^2 + 0.93x + 1.78** when in fact the original function was
 
