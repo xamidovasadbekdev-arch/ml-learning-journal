@@ -1,0 +1,21 @@
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Data directory (ignores all raw dataset files)
+data/
+
+# Machine Learning models (ignores serialized models/weights)
+models/
+
+# OS / Editor specific files
+.DS_Store
+.vscode/
+.idea/
