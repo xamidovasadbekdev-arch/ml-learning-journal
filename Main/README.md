@@ -5,3 +5,5 @@ Topic 1: Gradient Descent: What is gradient descent and its types. Writing code 
 Topic 2: Linear Regression: What is linear regression, what it predicts? Scratch coding Linear Regression with Normal Equation and Gradient Descent and its comparison with sklearn's Linear Regression.
 
 Topic 3: PolynomialRegression: What is PolynomialRegression? What if we need to fit linear model into nonlinear data?
+
+Topic 4: Regularization: What is Regularization? How do we handle overfitting? What are the types of regularization?
