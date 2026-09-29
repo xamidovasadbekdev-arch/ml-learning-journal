@@ -10,7 +10,8 @@ Logistic Regression answers **yes/no questions** by predicting the *probability*
 
 "Logistic *Regression*" is a **classification** algorithm. The word "regression" is historical (it borrows linear regression's math). If an interviewer asks "is logistic regression classification or regression?" — the answer is **classification**.
 
-!image.png
+<img width="883" height="584" alt="image" src="https://github.com/user-attachments/assets/6fa09ee4-4c30-48ca-a070-938784d5a8c2" />
+
 
 ```jsx
 # Why linear regression does not work for classification?
@@ -39,6 +40,6 @@ It's an S-shaped curve. Big positive input → near 1; big negative → near 0; 
 | --- | --- | --- | --- | --- | --- |
 | σ(z) | 0.007 | 0.12 | **0.5** | 0.88 | 0.993 |
 
-!image.png
+<img width="886" height="601" alt="image" src="https://github.com/user-attachments/assets/1cf70661-8410-465e-8da5-93f82b7b2f37" />
 
 That output is read as a **probability**. `σ(z) = 0.88` means "88% likely to be class 1." This is the source of the "0 and 1" you asked about: it's not linear regression — it's the sigmoid producing a probability between 0 and 1.
