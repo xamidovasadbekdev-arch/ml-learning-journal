@@ -5,5 +5,5 @@ In this folder, i will write articles for every topic that i have learned from M
 - Topic 3: Math Foundations - what is actually doing on behind algorithms
 - Topic 4: Linear Regression - OLS/Gradient Descent
 - Topic 5: Normal Equation vs Gradient Descent
-
+- Topic 6: Logistic Regression
   
