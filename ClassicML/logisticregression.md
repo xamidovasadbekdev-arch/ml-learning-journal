@@ -10,7 +10,8 @@ Logistic Regression answers yes/no questions by predicting the probability that 
 
 Why Linear Regression fails at predicting classification problem?
 
-!image.png
+<img width="878" height="579" alt="image" src="https://github.com/user-attachments/assets/329b8566-142a-4d22-809c-61b6c3aa3d07" />
+
 
 Logistic Regression borrows Linear Regression’s math and uses SIGMOID FUNCTION that squashes continuous number into (0, 1) interval.
 
@@ -31,7 +32,8 @@ It's an S-shaped curve. Big positive input → near 1; big negative → near 0; 
 | --- | --- | --- | --- | --- | --- |
 | σ(z) | 0.007 | 0.12 | **0.5** | 0.88 | 0.993 |
 
-!image.png
+<img width="885" height="602" alt="image" src="https://github.com/user-attachments/assets/8dcaf312-009c-4411-839c-060fd913b04c" />
+
 
 That output is read as a **probability**. `σ(z) = 0.88` means "88% likely to be class 1." This is the source of the "0 and 1" you asked about: it's not linear regression — it's the sigmoid producing a probability between 0 and 1.
 
@@ -63,7 +65,8 @@ Because the cutoff is `p = 0.5`, and `σ(z) = 0.5` exactly when `z = 0`, the mod
 
 **The decision boundary is a straight line where p = 0.5**
 
-!image.png
+<img width="885" height="602" alt="image" src="https://github.com/user-attachments/assets/a9b8a9eb-e301-4964-8db7-3b8dac4e84cd" />
+
 
 ```jsx
 # Final definition:
@@ -153,7 +156,7 @@ loss = −[ y·ln(p) + (1 − y)·ln(1 − p) ]
 
 Read it intuitively: if the true label is 1, the loss is `−ln(p)` — tiny when `p` is near 1, but **exploding toward infinity** as `p` heads to 0. In other words, it punishes *confident wrong* answers brutally, which is exactly what you want from a probability model.
 
-!image.png
+<img width="882" height="610" alt="image" src="https://github.com/user-attachments/assets/3c19b787-cbf8-4364-8652-c3bf665454d6" />
 
 **⚠️ Why not just use MSE?**
 
