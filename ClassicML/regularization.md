@@ -17,7 +17,8 @@ Picture fitting points that roughly follow a line:
 - **Good fit:** a smooth line through the middle of the points.
 - **Overfit:** a wiggly curve that passes exactly through every point. Training error is 0, but it's useless on new data.
 
-!image.png
+<img width="907" height="492" alt="image" src="https://github.com/user-attachments/assets/8e9e423e-2b6e-4e63-b004-67200a490c77" />
+
 
 You can see it in the numbers: **training accuracy is high, validation accuracy is much lower.** That gap is overfitting.
 
@@ -74,7 +75,7 @@ There are two ways to measure "how big are the weights", and the choice changes 
 
 Geometric intuition: L1's constraint region is a **diamond** (pointy corners on the axes), so the best solution often lands exactly on a corner — where some weights are 0. L2's region is a **circle** (no corners), so it shrinks weights but rarely hits exactly 0. That's why **Lasso doubles as automatic feature selection**.
 
-!image.png
+<img width="885" height="584" alt="image" src="https://github.com/user-attachments/assets/e5c64eb6-9b37-4093-89d7-5b33071b02ef" />
 
 ### Ridge Regression(L2)
 
