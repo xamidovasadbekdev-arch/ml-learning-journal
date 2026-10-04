@@ -41,6 +41,7 @@ y = real y
 y_pred = prediction
 ```
 
-!image.png
+<img width="951" height="284" alt="image" src="https://github.com/user-attachments/assets/f7159ec4-963c-4027-a218-12285dab74aa" />
 
-!image.png
+
+<img width="1010" height="365" alt="image" src="https://github.com/user-attachments/assets/b48a2053-a2d9-43a4-bcd0-ef0096f2c4be" />
