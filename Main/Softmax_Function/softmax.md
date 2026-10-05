@@ -53,7 +53,8 @@ These numbers are not probabilities because:
 
 Softmax converts a vector of K real numbers into probability distribution.
 
-!image.png
+<img width="273" height="153" alt="image" src="https://github.com/user-attachments/assets/a75ac7c1-9128-4870-8e83-8bf03914f64d" />
+
 
 Why exponentiate(e(z, k))?
 
@@ -68,7 +69,7 @@ Why exponentiate(e(z, k))?
 
 Lets compare softmax for logits ——> z = [2.0, 1.0, 0.1]
 
-!image.png
+<img width="1006" height="295" alt="image" src="https://github.com/user-attachments/assets/3e952552-7965-46df-8838-a905912dd1d4" />
 
 Python implementation in code:
 
