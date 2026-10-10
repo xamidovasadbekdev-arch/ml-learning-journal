@@ -28,4 +28,4 @@ of most models (slow to train, fast to predict). A great interview contrast.
 
 It even gives probabilities: with K=5 and 4 neighbors of class 1, `P(class 1) = 4/5 = 0.8`.
 
-!image.png
+<img width="880" height="575" alt="image" src="https://github.com/user-attachments/assets/8e6351e8-f35e-455a-8422-4479164f7a7a" />
