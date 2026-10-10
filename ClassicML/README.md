@@ -7,3 +7,4 @@ In this folder, i will write articles for every topic that i have learned from M
 - Topic 5: Normal Equation vs Gradient Descent
 - Topic 6: Logistic Regression
 - Topic 7: Regularization
+- Topic 8: K-Nearest Neighbours(KNN)
