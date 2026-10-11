@@ -28,12 +28,8 @@ of most models (slow to train, fast to predict). A great interview contrast.
 
 It even gives probabilities: with K=5 and 4 neighbors of class 1, `P(class 1) = 4/5 = 0.8`.
 
-<<<<<<< HEAD
-<img width="880" height="575" alt="image" src="https://github.com/user-attachments/assets/8e6351e8-f35e-455a-8422-4479164f7a7a" />
-=======
-!image.png
+<img width="310" height="107" alt="image" src="https://github.com/user-attachments/assets/be1831c1-7077-46cb-a3a1-07a3a8b79dbc" />
 
-!image.png
 
 ## Distance metrics
 
@@ -41,7 +37,8 @@ It even gives probabilities: with K=5 and 4 neighbors of class 1, `P(class 1) = 
 
 Minkowski formula:
 
-!image.png
+<img width="310" height="107" alt="image" src="https://github.com/user-attachments/assets/47c06ff1-f2a2-4c58-a2b5-107ad2bfb439" />
+
 
 ```python
 X and Y are 2 data sample
