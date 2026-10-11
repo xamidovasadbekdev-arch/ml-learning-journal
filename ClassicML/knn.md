@@ -159,4 +159,3 @@ KNN shines with few features but breaks down with many. As dimensions grow, the 
 | What's the curse of dimensionality? | In high dimensions all points become roughly equidistant, so "nearest" loses meaning and KNN degrades. |
 | Training vs prediction cost? | Training O(1) (just store); prediction O(n) per query (compare to all points) — slow at scale. |
 | Default distance metric? | Euclidean (Minkowski with p=2). |
->>>>>>> 003af61 (KNN: distance metrics(Minkowski formula), coding and interview questions)
