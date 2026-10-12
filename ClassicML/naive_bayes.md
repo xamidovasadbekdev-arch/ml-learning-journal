@@ -9,7 +9,8 @@ Naive Bayes do not use gradient descent to find best weights. Instead, it is a *
 
 ### Bayes Theorem
 
-!image.png
+<img width="255" height="74" alt="image" src="https://github.com/user-attachments/assets/cf958e71-6d9b-4ae0-9737-c878b4cd0703" />
+
 
 ```python
 Bayes' theorem flips a conditional probability around. For classification, it answers: 
@@ -58,4 +59,4 @@ stay-home = P(sunny|stay) × P(working|stay) × P(stay)
 
 Whichever score is larger is the prediction; normalize the two to turn them into probabilities. That's the whole algorithm — counts multiplied together.
 
-!image.png
+<img width="892" height="531" alt="image" src="https://github.com/user-attachments/assets/77fe003f-1ff8-4091-bc39-c85453e5bfad" />
