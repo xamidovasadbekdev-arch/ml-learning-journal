@@ -16,7 +16,7 @@ Else if Weight > 80 kg       -> Male
 Else                         -> Female
 ```
 
-!image.png
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/80e77b8b-7400-4133-9548-9385e86ccdef" />
 
 ```python
 Root node --->  the very first decision question asked
@@ -26,7 +26,8 @@ Branch ---> the answer route yes/no
 Depth ---> the number of questions asked
 ```
 
-!graph.png
+<img width="640" height="482" alt="image" src="https://github.com/user-attachments/assets/2f752c8f-e7e0-4e18-a9de-7842f6710399" />
+
 
 Here:
 
@@ -50,7 +51,8 @@ Training builds the tree by **recursive binary splitting**: at each node it trie
 What is Gini Impurity? Gini is the impurity of features(mix of features)
 ```
 
-!image.png
+<img width="304" height="152" alt="image" src="https://github.com/user-attachments/assets/f9ffc4be-6e44-4b63-ac55-b9f45ab8dba6" />
+
 
 p(i) - i class proportion
 
