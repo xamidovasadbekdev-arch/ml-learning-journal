@@ -6,3 +6,4 @@ In this folder, I will share what i am learning in 2 terms: theoritical and prac
 - Topic 4: Regularization: What is Regularization? How do we handle overfitting? What are the types of regularization?
 - Topic 5: What is Logistic Regression? Why does Linear Regression not work for classification problems?
 - Topic 6: What is Log-loss(binary cross entropy)? Why MSE does not work for Logistic Regression?
+- Topic 7: What is CART(Decision Tree)? How does Decision Tree work, is it like LogisticRegression that uses Gradient Descent to find best weights or not? What is Gini Impurity?
