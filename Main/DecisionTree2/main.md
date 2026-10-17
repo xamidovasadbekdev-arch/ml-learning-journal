@@ -9,7 +9,7 @@ In machine learning, **Entropy is a measure of disorder, randomness, or uncertai
 - **Entropy = 0 (Perfect Purity):** This happens when all data points in a node belong to exactly the same class (e.g., a group containing only "Yes" or only "No"). The algorithm loves this because there is zero uncertainty.
 - **Entropy = 1 (Maximum Disorder):** This happens when a node contains an exact 50/50 split of two classes. It is the messiest state because flipping a coin would give you the same accuracy.
 
-!image.png
+<img width="1070" height="272" alt="image" src="https://github.com/user-attachments/assets/9881b0df-40ec-4245-afce-f3e465543559" />
 
 ```python
 pi - proportion of i(th) class
@@ -46,7 +46,8 @@ C4.5 to determine best feature to split at each node. It measures how much uncer
 The feature that yields the highest information gain is chosen as the splitting point.
 ```
 
-!image.png
+<img width="472" height="88" alt="image" src="https://github.com/user-attachments/assets/4df03ca7-1e04-423e-9a90-9939446a8975" />
+
 
 - H(S) = Entropy of the parent dataset.
 - A = The specific attribute being tested.
