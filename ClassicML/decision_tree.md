@@ -16,27 +16,29 @@ make a prediction.
 
 CART always makes **binary splits** (exactly two children). Every split is of the form `feature <= threshold` for numeric features, or `feature in {some categories}` for categorical ones.
 
-!image.png
+<img width="867" height="614" alt="image" src="https://github.com/user-attachments/assets/0834f01a-39a1-4a9b-aa05-8d681430406e" />
+
 
 # 2. How does it measure “impurity”?
 
 ### Gini Impurity vs Entropy
 
-!image.png
+<img width="222" height="78" alt="image" src="https://github.com/user-attachments/assets/0ca7eae5-0c8f-483e-bed0-97dbe0498622" />
+
+
+where p_k is the fraction of samples in the node belonging to class k.
+
+- Node with 100% one class: Gini = 0 (pure)
+- Node with 50/50 split (2 classes): Gini = 0.5 (worst)
+<img width="196" height="30" alt="image" src="https://github.com/user-attachments/assets/54a02483-6470-42ce-a0d3-bb5faf90089a" />
+
 
 where p_k is the fraction of samples in the node belonging to class k.
 
 - Node with 100% one class: Gini = 0 (pure)
 - Node with 50/50 split (2 classes): Gini = 0.5 (worst)
 
-!image.png
-
-where p_k is the fraction of samples in the node belonging to class k.
-
-- Node with 100% one class: Gini = 0 (pure)
-- Node with 50/50 split (2 classes): Gini = 0.5 (worst)
-
-!image.png
+<img width="891" height="613" alt="image" src="https://github.com/user-attachments/assets/5cbc56d0-86df-4024-b975-d68092541e59" />
 
 |  | **Gini** | **Entropy**  |
 | --- | --- | --- |
@@ -54,7 +56,8 @@ It rarely matters — they give very similar trees. Gini is the default because 
 
 At each node, CART tries **every feature and every possible threshold**, and picks the one that reduces impurity the most:
 
-!image.png
+<img width="393" height="72" alt="image" src="https://github.com/user-attachments/assets/b247b8f9-21c7-4818-9c0c-21e91aceb5a3" />
+
 
 Lowest weighted impurity wins. For numeric features, candidate thresholds are the **midpoints between consecutive sorted unique values**.
 
@@ -84,8 +87,8 @@ print(tree.feature_importances_)   # which features the splits relied on
 **ℹ️ The big contrast: no scaling**
 
 Unlike KNN, SVM, and Logistic Regression, decision trees **do not need feature scaling** — a split like "age > 30" works the same whatever the units. This is a favourite interview distinction (tree-based vs distance/gradient-based models).
+<img width="887" height="533" alt="image" src="https://github.com/user-attachments/assets/a767dabe-82f6-45b0-a2ab-9d3b92f74367" />
 
-!image.png
 
 # 6. When to use it
 
