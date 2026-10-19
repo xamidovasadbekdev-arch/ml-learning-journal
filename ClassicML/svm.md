@@ -25,7 +25,7 @@ Because only the support vectors define the model, SVM is memory-efficient
 (it can forget all other points) and robust to far-away points. That's a common 
 interview point: "what are support vectors and why do they matter?"
 ```
+<img width="851" height="595" alt="image" src="https://github.com/user-attachments/assets/c4310830-54f4-4fe3-b40e-8fd7c73e2838" />
 
-!image.png
 
 Of all lines that separate the classes, SVM chooses the one with the **widest street** (margin) between them. Only the **support vectors** — the points touching the street's edges (ringed) — define that boundary; every other point could move freely and the line wouldn't budge.
