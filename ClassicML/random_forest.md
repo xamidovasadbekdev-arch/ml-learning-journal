@@ -87,9 +87,10 @@ Unlike a single deep tree, adding more trees to a Random Forest **does not overf
 | Overfitting | Resistant (more trees is safe) | Can overfit (needs care) |
 | Speed | Parallelizable (fast) | Sequential (slower) |
 
-!{AE3DB7F1-9413-467C-87D0-C96D936FD788}.png
+<img width="857" height="327" alt="image" src="https://github.com/user-attachments/assets/80ca86e9-502d-498a-9740-08d925a3c4fc" />
 
-!{096037F6-20E7-468C-9AB0-CDD2AAC6C8F6}.png
+<img width="872" height="299" alt="image" src="https://github.com/user-attachments/assets/5935ea59-3c89-41ba-8268-e0b46eaab9c5" />
+
 
 ## **When to use it + gotchas**
 
