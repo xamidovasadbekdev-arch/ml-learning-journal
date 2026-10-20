@@ -10,3 +10,5 @@ In this folder, i will write articles for every topic that i have learned from M
 - Topic 8: K-Nearest Neighbours(KNN)
 - Topic 9: Naive Bayes
 - Topic 10: Decision Trees
+- Topic 11: Support Vector Machines(SVMs)
+- Topic 12: Random Forest
