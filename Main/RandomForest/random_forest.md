@@ -95,7 +95,8 @@ trees as much as we want.
 | Overfitting | Resistant (more trees is safe) | Can overfit (needs care) |
 | Speed | Parallelizable (fast) | Sequential (slower) |
 
-!image.png
+![Uploading image.png…]()
+
 
 ## **When to use it + gotchas**
 
