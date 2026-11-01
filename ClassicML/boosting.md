@@ -35,7 +35,8 @@ It is a first successful boosting algorithm, developed by Freund & Schapire (199
 3. **Calculate Total Error (ε):** The algorithm calculates the sum of the weights of all the **misclassified** data points.
 4. **Determine the Model's Say (α):** The algorithm calculates the voting power (weight) of this specific tree using the formula:
 
-!image.png
+<img width="513" height="141" alt="image" src="https://github.com/user-attachments/assets/2307491b-43ca-45f4-9d41-7d6b47fd441b" />
+
 
 1. **Update Sample Weights:**
     - **Correct predictions:** Their weights are **decreased** (the model already knows how to handle them).
