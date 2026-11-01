@@ -12,3 +12,5 @@ In this folder, i will write articles for every topic that i have learned from M
 - Topic 10: Decision Trees
 - Topic 11: Support Vector Machines(SVMs)
 - Topic 12: Random Forest
+- Topic 13: Boosting Algorithms
+  
